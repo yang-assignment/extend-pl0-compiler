@@ -1,0 +1,17 @@
+var x, y;
+procedure a;
+  var w, v;
+  begin
+    x:=2;
+    w:=4;
+    write(x)
+  end;
+procedure b;
+  var x, w;
+  begin
+    x:=5;
+    call a 
+  end;
+begin
+  call b
+end.
