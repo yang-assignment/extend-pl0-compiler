@@ -1,0 +1,19 @@
+function s;
+var r;
+begin
+r:=2;
+s:=5*r
+end;
+
+procedure p(a,b,c);
+var r,h,e;
+begin
+r:=a+b;
+h:=r+c;
+write(h)
+end;
+
+begin
+ write(s);
+ call p(2,3,4)
+end.
