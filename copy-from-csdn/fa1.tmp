@@ -1,0 +1,15 @@
+Input pl/0 file?   y
+0 var x,y;
+
+1 begin
+
+2 x:=2;
+
+4 y:=10;
+
+6 if y> 5 then if y< 7 then x := 0 else x := 1;
+
+20 write(x);
+
+23 end.
+

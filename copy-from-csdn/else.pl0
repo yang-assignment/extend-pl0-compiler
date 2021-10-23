@@ -1,0 +1,7 @@
+var x,y;
+begin
+x:=2;
+y:=10;
+if y> 5 then if y< 7 then x := 0 else x := 1;
+write(x);
+end.

@@ -1,0 +1,16 @@
+procedure s(a,b);
+var r,h;
+begin
+r:=a+b;
+write(r)
+end;
+procedure p(a,b,c);
+var r,h,e;
+begin
+r:=a+b;
+h:=r+c;
+write(h)
+end;
+begin
+ call s(2*3,4)
+end.
